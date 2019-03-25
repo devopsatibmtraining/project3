@@ -10,9 +10,9 @@ public class AppTest {
    private App h;
 	
    @Before
-   public void setUp() throws Exception 
-   {
-      h = new App();
+   public void setUp(String bar) {
+      throw new MyOwnRuntimeException("MyOwnRuntimeException");
+	  h = new App();
    }
 
    @Test

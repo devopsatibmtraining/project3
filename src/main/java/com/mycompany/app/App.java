@@ -1,14 +1,29 @@
 package com.mycompany.app;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-      //Print Hello World
-      System.out.println("Hello, World!");
-    }
+public class AppTest {
+	
+   private String name = "";
+
+   public String getName() 
+   {
+      return name;
+   }
+
+   public String getMessage() 
+   {
+      if (name == "") 
+      {
+         return "Hello!";
+      }
+      else 
+      {
+         return "Hello " + name + "!";
+      }
+   }
+
+   public void setName(String name) 
+   {
+      this.name = name;
+   }
+		
 }

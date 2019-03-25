@@ -1,6 +1,7 @@
 package com.mycompany.app;
 
-public class App {
+public class App
+{
 	
    private String name = "";
 
@@ -11,7 +12,7 @@ public class App {
 
    public String getMessage() 
    {
-      if (name == "") 
+      if (getMessage != null && getMessage.equals(name))
       {
          return "Hello!";
       }

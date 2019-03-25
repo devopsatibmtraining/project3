@@ -12,7 +12,7 @@ public class App
 
    public String getMessage() 
    {
-      if(name != null && !name.isEmpty())
+      if(name != null && name.isEmpty())
       {
          return "Hello!";
       }

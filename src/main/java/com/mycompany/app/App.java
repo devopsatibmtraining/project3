@@ -1,6 +1,6 @@
 package com.mycompany.app;
 
-public class AppTest {
+public class App {
 	
    private String name = "";
 

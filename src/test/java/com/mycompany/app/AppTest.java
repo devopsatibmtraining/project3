@@ -7,12 +7,12 @@ import org.junit.Test;
 
 public class AppTest {
 
-   private HelloWorld h;
+   private App h;
 	
    @Before
    public void setUp() throws Exception 
    {
-      h = new HelloWorld();
+      h = new App();
    }
 
    @Test

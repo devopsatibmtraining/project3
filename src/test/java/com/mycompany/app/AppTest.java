@@ -18,7 +18,7 @@ public class AppTest {
    @Test
    public void testHelloEmpty() 
    {
-      assertEquals(h.getName()," ");
+      assertEquals(h.getName(),"");
       assertEquals(h.getMessage(),"Hello!");
    }
 	
@@ -26,7 +26,7 @@ public class AppTest {
    public void testHelloWorld() 
    {
       h.setName("World");
-      assertEquals(h.getName()," World");
+      assertEquals(h.getName(),"World");
       assertEquals(h.getMessage(),"Hello World!");
    }
 }
